@@ -1,0 +1,11 @@
+---
+Category: 'docker'
+Description: 'Template Docker repository for tool_name'  # Description of why the repository exists
+Maintainers: ['YourName@mednet.ucla.edu']  # email address of maintainers
+Contributors: ['Your Name']  # Full names of contributors
+Languages: ['bash']  # programming languages used
+Tools: ['tool_name']  # Name of the tool(s) used in the Dockerfile
+Version: ['X.X.X']  # Tool version number
+Purpose of tool: ''  # Description of what this tool does
+Dependencies: ['docker', 'conda', 'bl-base']  # packages, tools that repo needs to run
+References: ''  # is the tool/dependencies published, is there a confluence page
