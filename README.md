@@ -1,25 +1,21 @@
-# docker-tool_name
-Template Repository for the Boutros Lab Dockerfiles based on the bl-base image.
+# docker-FusionCatcher
 
-The bl-base image is located in the Boutros Lab Docker Hub repo: https://hub.docker.com/repository/docker/blcdsdockerregistry/bl-base
+Dockerfile for FusionCatcher, a gene fusion caller from RNA-seq data.
+
+The docker image is available at [blcdsdockerregistry/fusioncatcher](https://hub.docker.com/r/blcdsdockerregistry/fusioncatcher)
 
 # Documentation
-Docker introduction [here](https://confluence.mednet.ucla.edu/display/BOUTROSLAB/Docker+Introduction)
 
-Dockerfile Best Practices [here](https://confluence.mednet.ucla.edu/display/BOUTROSLAB/Dockerfile+Best+Practices)
-
-Docker image versioning standard [here](https://confluence.mednet.ucla.edu/display/BOUTROSLAB/Docker+image+versioning+standardization)
-
+See FusionCatcher's [doc](https://github.com/ndaniel/fusioncatcher/blob/master/doc/manual.md)
 
 # Version
+
 | Tool | Version |
 |------|---------|
-|tool_name| X.X.X|
-|tool_name_2|X.X.X|
-
+|fusioncatcher| 1.33 |
 
 ---
 
 ## References
 
-1. Tool specific references can be listed here
+1. D. Nicorici, M. Satalan, H. Edgren, S. Kangaspeska, A. Murumagi, O. Kallioniemi, S. Virtanen, O. Kilkku, FusionCatcher – a tool for finding somatic fusion genes in paired-end RNA-sequencing data, *bioRxiv*, Nov. 2014, DOI:10.1101/011650

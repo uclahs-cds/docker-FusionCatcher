@@ -1,11 +1,11 @@
 ---
 Category: 'docker'
-Description: 'Template Docker repository for tool_name'  # Description of why the repository exists
-Maintainers: ['YourName@mednet.ucla.edu']  # email address of maintainers
-Contributors: ['Your Name']  # Full names of contributors
-Languages: ['bash']  # programming languages used
-Tools: ['tool_name']  # Name of the tool(s) used in the Dockerfile
-Version: ['X.X.X']  # Tool version number
-Purpose of tool: ''  # Description of what this tool does
-Dependencies: ['docker', 'conda', 'bl-base']  # packages, tools that repo needs to run
-References: ''  # is the tool/dependencies published, is there a confluence page
+Description: 'Repo for the Dockerfile of the FusionCatcher docker image'
+Maintainers: ['ChenghaoZhu@mednet.ucla.edu']
+Contributors: ['Chenghao Zhu']
+Languages: ['Dockerfile']
+Tools: ['FusionCatcher']
+Version: ['1.33']
+Purpose of tool: 'Call gene fusion events from RNA-seq data'
+Dependencies: ['docker', 'bl-base']
+References: '10.1101/011650'
